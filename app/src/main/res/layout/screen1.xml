@@ -16,8 +16,8 @@
         android:text="Good morning!"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/plsearch"
+        app:layout_constraintEnd_toEndOf="@+id/plsearch"
         app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -34,7 +34,7 @@
         app:srcCompat="@drawable/donaltrum_1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/plsearch"
         android:layout_width="288dp"
         android:layout_height="69dp"
         android:layout_marginBottom="96dp"
@@ -42,13 +42,13 @@
         android:inputType="textPersonName"
         android:text="Find the coffee for you!"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnsn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btncf"
         android:layout_width="121dp"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
@@ -56,11 +56,11 @@
         android:layout_marginBottom="4dp"
         android:background="#00BCD4"
         android:text="COFFEE"
-        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintBottom_toBottomOf="@+id/btnsn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnsn"
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
@@ -68,7 +68,7 @@
         android:layout_marginRight="60dp"
         android:text="SNACK"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/plsearch" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -93,7 +93,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnsn" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcv"
